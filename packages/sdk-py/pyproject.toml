@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "firecrawl-app-client"
+version = "1.0.0"
+description = "Python Client SDK for Cloned WebApp APIs"
+readme = "README.md"
+requires-python = ">=3.9"
+keywords = ["firecrawl", "scraper", "crawler", "sdk"]

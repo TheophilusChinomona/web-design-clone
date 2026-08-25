@@ -1,0 +1,230 @@
+{
+  "users": [
+    {
+      "id": "usr_default",
+      "email": "executus.ahli@gmail.com",
+      "name": "Executus Ahli",
+      "passwordHash": "pbkdf2_sha256$default$demo_password_hash",
+      "createdAt": "2026-08-25T12:00:00.000Z"
+    }
+  ],
+  "workspaces": [
+    {
+      "id": "25bMf9wr6oN",
+      "name": "Personal Team",
+      "ownerId": "usr_default",
+      "plan": "Free",
+      "creditsTotal": 500,
+      "creditsUsed": 309,
+      "createdAt": "2026-08-25T12:00:00.000Z"
+    }
+  ],
+  "apiKeys": [
+    {
+      "id": "key_default",
+      "workspaceId": "25bMf9wr6oN",
+      "name": "Default Production Key",
+      "token": "fc_live_79a8e2b9c04d81234f98a76e",
+      "prefix": "fc_live_79a8e2b9",
+      "createdAt": "2026-08-25T12:00:00.000Z",
+      "lastUsed": "Just now"
+    },
+    {
+      "id": "key_1787693710508",
+      "workspaceId": "25bMf9wr6oN",
+      "name": "SDK Generated Key",
+      "token": "fc_live_lkb0b306q7qgteun7qj",
+      "prefix": "fc_live_lkb0b306",
+      "createdAt": "2026-08-25T21:35:10.508Z",
+      "lastUsed": "Never"
+    },
+    {
+      "id": "key_1787693770639",
+      "workspaceId": "25bMf9wr6oN",
+      "name": "Integration Test Key",
+      "token": "fc_live_nufrr8cat3zqntjpng",
+      "prefix": "fc_live_nufrr8ca",
+      "createdAt": "2026-08-25T21:36:10.639Z",
+      "lastUsed": "Never"
+    },
+    {
+      "id": "key_1787693771703",
+      "workspaceId": "25bMf9wr6oN",
+      "name": "SDK Generated Key",
+      "token": "fc_live_2uc6pa5gbtb1arx4ge",
+      "prefix": "fc_live_2uc6pa5g",
+      "createdAt": "2026-08-25T21:36:11.703Z",
+      "lastUsed": "Never"
+    },
+    {
+      "id": "key_1787694806480",
+      "workspaceId": "25bMf9wr6oN",
+      "name": "SDK Generated Key",
+      "token": "fc_live_vsp6kchqd9xucobidmn",
+      "prefix": "fc_live_vsp6kchq",
+      "createdAt": "2026-08-25T21:53:26.480Z",
+      "lastUsed": "Never"
+    }
+  ],
+  "crawlJobs": [
+    {
+      "id": "job_sample_1",
+      "workspaceId": "25bMf9wr6oN",
+      "url": "https://example.com",
+      "status": "completed",
+      "total": 5,
+      "completed": 5,
+      "creditsUsed": 5,
+      "createdAt": "2026-08-25T13:00:00.000Z"
+    },
+    {
+      "id": "job_hj07kk0ke",
+      "workspaceId": "25bMf9wr6oN",
+      "url": "https://example.com",
+      "status": "scraping",
+      "total": 5,
+      "completed": 0,
+      "creditsUsed": 1,
+      "createdAt": "2026-08-25T21:36:10.084Z"
+    }
+  ],
+  "scrapeLogs": [
+    {
+      "workspaceId": "25bMf9wr6oN",
+      "endpoint": "/v1/scrape",
+      "url": "https://example.com",
+      "status": 200,
+      "credits": 1,
+      "time": "Just now",
+      "id": "log_1787694806303_36d8",
+      "createdAt": "2026-08-25T21:53:26.303Z"
+    },
+    {
+      "workspaceId": "25bMf9wr6oN",
+      "endpoint": "/v1/scrape",
+      "url": "https://example.com",
+      "status": 200,
+      "credits": 1,
+      "time": "Just now",
+      "id": "log_1787693771619_c0qk",
+      "createdAt": "2026-08-25T21:36:11.619Z"
+    },
+    {
+      "workspaceId": "25bMf9wr6oN",
+      "endpoint": "/v1/crawl",
+      "url": "https://example.com",
+      "status": 200,
+      "credits": 1,
+      "time": "Just now",
+      "id": "log_1787693770121_37d1",
+      "createdAt": "2026-08-25T21:36:10.121Z"
+    },
+    {
+      "workspaceId": "25bMf9wr6oN",
+      "endpoint": "/v1/scrape",
+      "url": "https://example.com",
+      "status": 200,
+      "credits": 1,
+      "time": "Just now",
+      "id": "log_1787693769857_se4p",
+      "createdAt": "2026-08-25T21:36:09.857Z"
+    },
+    {
+      "workspaceId": "25bMf9wr6oN",
+      "endpoint": "/v1/scrape",
+      "url": "https://example.com",
+      "status": 200,
+      "credits": 1,
+      "time": "Just now",
+      "id": "log_1787693710234_jht3",
+      "createdAt": "2026-08-25T21:35:10.234Z"
+    },
+    {
+      "id": "log_1",
+      "workspaceId": "25bMf9wr6oN",
+      "endpoint": "/v1/scrape",
+      "url": "https://firecrawl.dev",
+      "status": 200,
+      "credits": 1,
+      "time": "2 mins ago",
+      "createdAt": "2026-08-25T21:35:10.219Z"
+    },
+    {
+      "id": "log_2",
+      "workspaceId": "25bMf9wr6oN",
+      "endpoint": "/v1/scrape",
+      "url": "https://docs.firecrawl.dev",
+      "status": 200,
+      "credits": 1,
+      "time": "14 mins ago",
+      "createdAt": "2026-08-25T21:21:10.219Z"
+    },
+    {
+      "id": "log_3",
+      "workspaceId": "25bMf9wr6oN",
+      "endpoint": "/v1/map",
+      "url": "https://news.ycombinator.com",
+      "status": 200,
+      "credits": 1,
+      "time": "1 hour ago",
+      "createdAt": "2026-08-25T20:35:10.220Z"
+    },
+    {
+      "id": "log_4",
+      "workspaceId": "25bMf9wr6oN",
+      "endpoint": "/v1/crawl",
+      "url": "https://example.com",
+      "status": 200,
+      "credits": 5,
+      "time": "3 hours ago",
+      "createdAt": "2026-08-25T18:35:10.220Z"
+    }
+  ],
+  "inquiries": [
+    {
+      "name": "SDK Test",
+      "email": "sdk@test.com",
+      "subject": "Inquiry",
+      "message": "Testing SDK inquiry",
+      "id": "inq_1787694807125",
+      "status": "unread",
+      "createdAt": "2026-08-25T21:53:27.125Z"
+    },
+    {
+      "name": "SDK Test",
+      "email": "sdk@test.com",
+      "subject": "Inquiry",
+      "message": "Testing SDK inquiry",
+      "id": "inq_1787693771874",
+      "status": "unread",
+      "createdAt": "2026-08-25T21:36:11.874Z"
+    },
+    {
+      "name": "John Carpenter",
+      "email": "john@woodwork.co.za",
+      "subject": "Edge Banding Inquiry",
+      "message": "Looking for 50 veneer sheets edged.",
+      "id": "inq_1787693770743",
+      "status": "unread",
+      "createdAt": "2026-08-25T21:36:10.743Z"
+    },
+    {
+      "name": "SDK Test",
+      "email": "sdk@test.com",
+      "subject": "Inquiry",
+      "message": "Testing SDK inquiry",
+      "id": "inq_1787693710929",
+      "status": "unread",
+      "createdAt": "2026-08-25T21:35:10.929Z"
+    },
+    {
+      "id": "inq_sample_1",
+      "name": "John Carpenter",
+      "email": "john@woodwork.co.za",
+      "subject": "Bulk Wood Edging Quote",
+      "message": "Looking for 50 veneer sheets edged.",
+      "status": "read",
+      "createdAt": "2026-08-25T11:00:00.000Z"
+    }
+  ]
+}

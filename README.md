@@ -1,214 +1,120 @@
 <div align="center">
 
-# AI Website Cloner Template
+# AI Website Cloner & WebApp Appification Platform
 
-### Clone any website with one command
+### Clone any website into a pixel-perfect Next.js replica, and convert it into a production-grade Web App with OpenAPI 3.1 specs
 
-Give your AI coding agent a URL and watch it recreate the website as a clean Next.js app.
+Give your AI coding agent a URL and watch it recreate the website as a clean Next.js app, or appify any cloned frontend into a full-stack application with live API Route Handlers and OpenAPI contracts.
 
-**Best results with [Claude Code](https://docs.anthropic.com/en/docs/claude-code) + Opus 5. Works with Codex, Cursor, Gemini, and more.**
+**Best results with [Antigravity CLI (AGY)](https://antigravity.google) and [Claude Code](https://docs.anthropic.com/en/docs/claude-code) + Opus 5. Works with Codex, Cursor, Gemini, and more.**
 
-[![Use this template](https://img.shields.io/badge/Use_this_template-Create_your_copy-2ea44f?style=for-the-badge&logo=github&logoColor=white)](https://github.com/JCodesMore/ai-website-cloner-template/generate) [![Discord](https://img.shields.io/badge/Join_the_community-Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/hrTSX5yTpB)
+[![Use this template](https://img.shields.io/badge/Use_this_template-Create_your_copy-2ea44f?style=for-the-badge&logo=github&logoColor=white)](https://github.com/JCodesMore/ai-website-clone-template/generate) [![Discord](https://img.shields.io/badge/Join_the_community-Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/hrTSX5yTpB)
 
-[Quick Start](#quick-start) · [Watch Demo](#demo) · [Supported Platforms](#supported-platforms)
-
-<a href="https://github.com/JCodesMore/ai-website-cloner-template/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue" alt="MIT License" /></a> <a href="https://github.com/JCodesMore/ai-website-cloner-template"><img src="https://img.shields.io/github/stars/JCodesMore/ai-website-cloner-template?style=flat" alt="Stars" /></a> <img src="https://img.shields.io/endpoint?url=https://gittokens.rsamf.com/badge/JCodesMore/ai-website-cloner-template" alt="tokens" />
-
-  <a href="https://trendshift.io/repositories/24302?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-24302" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/repositories/24302" alt="JCodesMore%2Fai-website-cloner-template | Trendshift" width="250" height="55" /></a> <a href="https://www.star-history.com/jcodesmore/ai-website-cloner-template/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/badge?repo=JCodesMore/ai-website-cloner-template&amp;theme=dark" /><source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/badge?repo=JCodesMore/ai-website-cloner-template" /><img alt="Star History Global Rank" src="https://api.star-history.com/badge?repo=JCodesMore/ai-website-cloner-template" width="216" height="55" /></picture></a>
-
-<br />
-<sub><strong>SPONSORED BY</strong></sub>
-<br /><br />
-<a href="https://www.rapidproxy.io/?ref=JCM"><img src="docs/assets/sponsors/rapidproxy-banner.png" alt="RapidProxy residential proxy service" width="680" /></a>
-<br />
-<sub>Power your scraping and automation with 90M+ residential IPs, 500MB free traffic, and non-expiring bandwidth. <a href="https://www.rapidproxy.io/?ref=JCM">Explore RapidProxy →</a></sub>
-<br /><br />
-<a href="https://www.atlascloud.ai/?utm_source=github&amp;utm_medium=sponsor&amp;utm_campaign=ai-website-cloner-template">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="docs/assets/sponsors/atlas-cloud-logo-white.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="docs/assets/sponsors/atlas-cloud-logo.svg" />
-    <img src="docs/assets/sponsors/atlas-cloud-logo.svg" alt="Atlas Cloud" width="240" />
-  </picture>
-</a>
-<br />
-<sub>Generate AI images, video, audio, and 3D assets through one API. <a href="https://www.atlascloud.ai/?utm_source=github&amp;utm_medium=sponsor&amp;utm_campaign=ai-website-cloner-template">Explore Atlas Cloud →</a></sub>
+[Quick Start](#quick-start) · [Dual Workflows](#dual-workflows) · [OpenAPI Specs](#openapi-specification) · [Antigravity Plugin](#antigravity-agy-plugin-quickstart)
 
 </div>
 
 ---
 
-## Demo
+## ⚡ Dual Workflows
 
-[![Watch the demo](docs/design-references/comparison.png)](https://youtu.be/O669pVZ_qr0)
-
-> Click the image above to watch the full demo on YouTube.
-
-## Quick Start
-
-> **Important:** Start by making your own copy with GitHub's **Use this template** button. Do not clone this template repository directly for your website project, and do not open pull requests here with your generated website.
-
-1. **Create your own repository from this template**
-
-   On the GitHub page for this project, click **Use this template**, then click **Create a new repository**.
-
-   Give your new repository a name, choose whether it should be public or private, then click **Create repository**. If GitHub shows an **Include all branches** option, you can leave it off.
-
-   This gives you your own separate project to work in, so your website changes stay in your account instead of coming back to the main template.
-
-2. **Open your new repository on your computer**
-
-   After GitHub creates your copy, open that new repository. Click **Code** and open or clone your new repository with your preferred coding tool.
-
-   If you use the terminal, the command will look like this:
-
-   ```bash
-   git clone https://github.com/YOUR-USERNAME/YOUR-NEW-REPOSITORY.git
-   cd YOUR-NEW-REPOSITORY
-   ```
-
-3. **Install dependencies**
-   ```bash
-   npm install
-   ```
-4. **Start your AI agent** — Claude Code recommended:
-   ```bash
-   claude --chrome
-   ```
-5. **Run the skill**:
-   ```
-   /clone-website <target-url1> [<target-url2> ...]
-   ```
-6. **Customize** (optional) — after the base clone is built, modify as needed
-
-> Most supported clients expose `/clone-website` directly. If your client activates skills from natural-language requests, enter `Clone <target-url> using the clone-website workflow`. Project instructions are in `AGENTS.md`.
-
-## Supported Platforms
-
-| Agent                                                         | Status                     |
-| ------------------------------------------------------------- | -------------------------- |
-| [Claude Code](https://docs.anthropic.com/en/docs/claude-code) | **Recommended** — Opus 5   |
-| [Codex CLI](https://github.com/openai/codex)                  | Supported                  |
-| [OpenCode](https://opencode.ai/)                              | Supported                  |
-| [GitHub Copilot](https://github.com/features/copilot)         | Supported                  |
-| [Kiro](https://kiro.dev/)                                    | Supported                  |
-| [Cursor](https://cursor.com/)                                 | Supported                  |
-| [Windsurf](https://codeium.com/windsurf)                      | Supported                  |
-| [Gemini CLI](https://github.com/google-gemini/gemini-cli)     | Supported                  |
-| [Cline](https://github.com/cline/cline)                       | Supported                  |
-| [Roo Code](https://github.com/RooCodeInc/Roo-Code)            | Supported                  |
-| [Continue](https://continue.dev/)                             | Supported                  |
-| [Amazon Q](https://aws.amazon.com/q/developer/)               | Supported                  |
-| [Augment Code](https://www.augmentcode.com/)                  | Supported                  |
-
-## Prerequisites
-
-- [Node.js](https://nodejs.org/) 24+
-- An AI coding agent (see [Supported Platforms](#supported-platforms))
-
-## Tech Stack
-
-- **Next.js 16** — App Router, React 19, TypeScript strict
-- **shadcn/ui** — Radix primitives + Tailwind CSS v4
-- **Tailwind CSS v4** — oklch design tokens
-- **Lucide React** — default icons (replaced by extracted SVGs during cloning)
-
-## How It Works
-
-The `/clone-website` skill runs a multi-phase pipeline:
+This plugin provides two complementary workflows:
 
 ```mermaid
 flowchart LR
-    P1["1. Reconnaissance"] --> P2["2. Foundation"]
-    P2 --> P3["3. Component Specs"]
-    P3 --> P4["4. Parallel Build"]
-    P4 --> P5["5. Assembly and QA"]
+    Target["Target URL / Dashboard"] --> W1["Workflow 1: /clone-website"]
+    W1 --> Replica["Pixel-Perfect Next.js Clone"]
+    Replica --> W2["Workflow 2: /convert-to-webapp"]
+    W2 --> FullApp["Full-Stack Next.js Web App"]
+    W2 --> OpenAPI["OpenAPI 3.1 Spec & Docs"]
 ```
 
-1. **Reconnaissance** — screenshots, design token extraction, interaction sweep (scroll, click, hover, responsive)
-2. **Foundation** — updates fonts, colors, globals, downloads all assets
-3. **Component Specs** — writes detailed spec files (`docs/research/components/`) with exact computed CSS values, states, behaviors, and content
-4. **Parallel Build** — dispatches builder agents in git worktrees, one per section/component
-5. **Assembly & QA** — merges worktrees, wires up the page, runs visual diff against the original
+### 1. `/clone-website <url>` — Pixel-Perfect Reverse-Engineering
+- Extracts design tokens, fonts, spacing, computed CSS, and responsive layouts.
+- Interactive authentication & session handoff for gated user dashboards (`npm run clone:login`).
+- Parallel worktree builder agents dispatch for zero-conflict component construction.
 
-Each builder agent receives the full component specification inline — exact `getComputedStyle()` values, interaction models, multi-state content, responsive breakpoints, and asset paths. No guessing.
+### 2. `/convert-to-webapp` — Appification & OpenAPI Generator
+- Reverse-engineers data models, table columns, form inputs, and state transitions.
+- Emits standard **OpenAPI 3.1 (OAS 3.1)** specifications (`docs/api/openapi.json`).
+- Mounts interactive API documentation & Swagger explorer at `/api/docs`.
+- Generates **Zod-validated Next.js Route Handlers** (`src/app/api/.../route.ts`).
+- Wires client components and forms to live backend endpoints.
 
-## Use Cases
+---
 
-- **Platform migration** — rebuild a site you own from WordPress/Webflow/Squarespace into a modern Next.js codebase
-- **Lost source code** — your site is live but the repo is gone, the developer left, or the stack is legacy. Get the code back in a modern format
-- **Learning** — deconstruct how production sites achieve specific layouts, animations, and responsive behavior by working with real code
+## 🚀 Quick Start
 
-## Not Intended For
+1. **Install dependencies**:
+   ```bash
+   npm install
+   ```
 
-- **Phishing or impersonation** — this project must not be used for deceptive purposes, impersonation, or any activity that breaks the law.
-- **Passing off someone's design as your own** — logos, brand assets, and original copy belong to their owners.
-- **Violating terms of service** — some sites explicitly prohibit scraping or reproduction. Check first.
+2. **Start Dev Server**:
+   ```bash
+   npm run dev
+   ```
 
-## Project Structure
+3. **Explore Clones & Interactive API Docs**:
+   - Master Catalog Hub: [http://localhost:3000/](http://localhost:3000/)
+   - OpenAPI 3.1 Explorer: [http://localhost:3000/api/docs](http://localhost:3000/api/docs)
+   - EdgeTech Solutions: [http://localhost:3000/edgetech](http://localhost:3000/edgetech)
+   - Firecrawl Marketing: [http://localhost:3000/firecrawl](http://localhost:3000/firecrawl)
+   - Firecrawl Team Dashboard: [http://localhost:3000/app/t/25bMf9wr6oN](http://localhost:3000/app/t/25bMf9wr6oN)
 
-```
-src/
-  app/              # Next.js routes
-  components/       # React components
-    ui/             # shadcn/ui primitives
-    icons.tsx       # Extracted SVG icons
-  lib/utils.ts      # cn() utility
-  types/            # TypeScript interfaces
-  hooks/            # Custom React hooks
-public/
-  images/           # Downloaded images from target
-  videos/           # Downloaded videos from target
-  seo/              # Favicons, OG images
-docs/
-  research/         # Extraction output & component specs
-  design-references/ # Screenshots
-scripts/
-  sync-agent-rules.sh  # Regenerate agent instruction files
-  sync-skills.mjs      # Regenerate /clone-website for all platforms
-.kiro/skills/          # Generated Kiro workspace skill
-.cline/skills/         # Generated Cline workspace skill
-.roo/skills/           # Generated Roo Code workspace skill
-.roo/commands/         # Generated Roo Code slash command
-AGENTS.md           # Agent instructions (single source of truth)
-CLAUDE.md           # Claude Code config (imports AGENTS.md)
-GEMINI.md           # Gemini CLI config (imports AGENTS.md)
-```
+---
 
-## Commands
+## 🧩 Antigravity (AGY) Plugin Quickstart
+
+You can install and use this repository as a global AGY Plugin across any new or existing project:
+
+1. **Register the Plugin Globally**:
+   ```bash
+   npm run plugin:install:global
+   ```
+2. **Start Any New Project**:
+   ```bash
+   mkdir my-new-project && cd my-new-project
+   agy
+   ```
+3. **Run Either Workflow**:
+   - To clone a website: `/clone-website https://example.com`
+   - To convert into a functional web app: `/convert-to-webapp`
+
+---
+
+## 🛠️ Commands
 
 ```bash
-npm run dev    # Start dev server
-npm run build  # Production build
-npm run lint   # ESLint check
-npm run typecheck # TypeScript check
-npm run check  # Run lint + typecheck + build
+npm run dev              # Start development server
+npm run build            # Production build
+npm run typecheck        # Strict TypeScript check
+npm run openapi:generate # Regenerate OpenAPI 3.1 specification (docs/api/openapi.json)
+npm run openapi:test     # Run automated API endpoint test suite
+npm run clone:login      # Launch interactive login browser session
+npm run clone:dashboard  # Crawl authenticated dashboard routes
+npm run port:free        # Kill any stale background processes on port 3000
 ```
 
-### If using docker
+---
 
-```bash
-docker compose up app --build # build and run the app
-docker compose up dev --build # run the app in dev mode on port 3001
-```
+## 📋 OpenAPI Specification
 
-## Updating for Other Platforms
+The generated OpenAPI 3.1 specification is located at:
+- File: `docs/api/openapi.json`
+- Interactive Web Explorer: [http://localhost:3000/api/docs](http://localhost:3000/api/docs)
 
-Two source-of-truth files power all platform support. Edit the source, then run the sync script:
+Endpoints implemented:
+- `POST /api/v1/scrape` — Clean markdown/HTML single-page web scraper
+- `POST /api/v1/crawl` — Asynchronous multi-page domain crawler
+- `POST /api/v1/map` — Domain URL mapper & discovery engine
+- `POST /api/v1/extract` — Structured JSON schema extraction
+- `GET /api/v1/keys`, `POST /api/v1/keys`, `DELETE /api/v1/keys` — API key lifecycle manager
+- `GET /api/v1/usage` — Live credit quota & request activity log
+- `POST /api/v1/contact` — Customer inquiry & quote submission handler
 
-| What                   | Source of truth                         | Sync command                       |
-| ---------------------- | --------------------------------------- | ---------------------------------- |
-| Project instructions   | `AGENTS.md`                             | `bash scripts/sync-agent-rules.sh` |
-| `/clone-website` skill | `.claude/skills/clone-website/SKILL.md` | `node scripts/sync-skills.mjs`     |
+---
 
-Each script regenerates the platform-specific copies automatically. Agents that read the source files natively need no regeneration.
-
-
-## Star History
-
-![Star History Chart](docs/assets/star-history.png)
-
-## License
+## 📜 License
 
 MIT
-
-<sub>Translations: <a href="README.ja.md">日本語</a> · <a href="README.zh-CN.md">Simplified Chinese</a></sub>

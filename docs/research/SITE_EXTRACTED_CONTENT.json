@@ -1,0 +1,26 @@
+{
+  "home": {
+    "title": "Home - EdgeTech Solutions",
+    "contentBlocks": []
+  },
+  "about": {
+    "title": "About - EdgeTech Solutions",
+    "contentBlocks": []
+  },
+  "services": {
+    "title": "Services - EdgeTech Solutions",
+    "contentBlocks": []
+  },
+  "our-process": {
+    "title": "Our Process - EdgeTech Solutions",
+    "contentBlocks": []
+  },
+  "contact": {
+    "title": "Contact - EdgeTech Solutions",
+    "contentBlocks": []
+  },
+  "privacy-policy": {
+    "title": "Privacy Policy - EdgeTech Solutions",
+    "contentBlocks": []
+  }
+}

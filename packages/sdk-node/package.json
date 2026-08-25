@@ -1,0 +1,16 @@
+{
+  "name": "@cloner/node-sdk",
+  "version": "1.0.0",
+  "description": "Node.js & TypeScript Client SDK for Cloned WebApp APIs",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "sdk",
+    "firecrawl",
+    "node",
+    "typescript"
+  ]
+}

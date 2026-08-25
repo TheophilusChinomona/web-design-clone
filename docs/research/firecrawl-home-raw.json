@@ -1,0 +1,212 @@
+{
+  "url": "https://www.firecrawl.dev/",
+  "title": "Firecrawl - The context API to search, scrape, and interact with the web at scale. 🔥",
+  "description": "Firecrawl is the context API to search, scrape, and interact with the web at scale. Turn any source into clean Markdown or structured data your agents can ship with.",
+  "imageCount": 79,
+  "images": [
+    {
+      "src": "https://www.firecrawl.dev/assets-original/logocloud/1.png",
+      "raw": "<img alt=\"Shopify\" class=\"absolute object-cover w-full h-full\" loading=\"lazy\" decoding=\"async\" src=\"/assets-original/logocloud/1.png\"/>"
+    },
+    {
+      "src": "https://www.firecrawl.dev/assets-original/logocloud/12.png",
+      "raw": "<img alt=\"Lovable\" class=\"absolute object-cover w-full h-full\" loading=\"lazy\" decoding=\"async\" src=\"/assets-original/logocloud/12.png\"/>"
+    },
+    {
+      "src": "https://www.firecrawl.dev/assets-original/logocloud/7.png",
+      "raw": "<img alt=\"Canva\" class=\"absolute object-cover w-full h-full\" loading=\"lazy\" decoding=\"async\" src=\"/assets-original/logocloud/7.png\"/>"
+    },
+    {
+      "src": "https://www.firecrawl.dev/assets-original/logocloud/3.png",
+      "raw": "<img alt=\"Zapier\" class=\"absolute object-cover w-full h-full\" loading=\"lazy\" decoding=\"async\" src=\"/assets-original/logocloud/3.png\"/>"
+    },
+    {
+      "src": "https://www.firecrawl.dev/assets-original/logocloud/16.png",
+      "raw": "<img alt=\"Apple\" class=\"absolute object-cover w-full h-full\" loading=\"lazy\" decoding=\"async\" src=\"/assets-original/logocloud/16.png\"/>"
+    },
+    {
+      "src": "https://www.firecrawl.dev/assets-original/logocloud/22.png",
+      "raw": "<img alt=\"Replit\" class=\"absolute object-cover w-full h-full\" loading=\"lazy\" decoding=\"async\" src=\"/assets-original/logocloud/22.png\"/>"
+    },
+    {
+      "src": "https://www.firecrawl.dev/assets-original/logocloud/2.png",
+      "raw": "<img alt=\"Alibaba\" class=\"absolute object-cover w-full h-full\" loading=\"lazy\" decoding=\"async\" src=\"/assets-original/logocloud/2.png\"/>"
+    },
+    {
+      "src": "https://www.firecrawl.dev/assets-original/logocloud/5.png",
+      "raw": "<img alt=\"PHMG\" class=\"absolute object-cover w-full h-full\" loading=\"lazy\" decoding=\"async\" src=\"/assets-original/logocloud/5.png\"/>"
+    },
+    {
+      "src": "https://www.firecrawl.dev/assets-original/logocloud/17.png",
+      "raw": "<img alt=\"DoorDash\" class=\"absolute object-cover w-full h-full\" loading=\"lazy\" decoding=\"async\" src=\"/assets-original/logocloud/17.png\"/>"
+    },
+    {
+      "src": "https://www.firecrawl.dev/assets-original/logocloud/6.png",
+      "raw": "<img alt=\"Gamma\" class=\"absolute object-cover w-full h-full\" loading=\"lazy\" decoding=\"async\" src=\"/assets-original/logocloud/6.png\"/>"
+    },
+    {
+      "src": "https://www.firecrawl.dev/assets-original/logocloud/4.png",
+      "raw": "<img alt=\"You.com\" class=\"absolute object-cover w-full h-full\" loading=\"lazy\" decoding=\"async\" src=\"/assets-original/logocloud/4.png\"/>"
+    },
+    {
+      "src": "https://www.firecrawl.dev/assets-original/logocloud/8.png",
+      "raw": "<img alt=\"Sprinklr\" class=\"absolute object-cover w-full h-full\" loading=\"lazy\" decoding=\"async\" src=\"/assets-original/logocloud/8.png\"/>"
+    },
+    {
+      "src": "https://www.firecrawl.dev/assets-original/logocloud/9.png",
+      "raw": "<img alt=\"Cognism\" class=\"absolute object-cover w-full h-full\" loading=\"lazy\" decoding=\"async\" src=\"/assets-original/logocloud/9.png\"/>"
+    },
+    {
+      "src": "https://www.firecrawl.dev/assets-original/logocloud/10.png",
+      "raw": "<img alt=\"Ada\" class=\"absolute object-cover w-full h-full\" loading=\"lazy\" decoding=\"async\" src=\"/assets-original/logocloud/10.png\"/>"
+    },
+    {
+      "src": "https://www.firecrawl.dev/assets-original/logocloud/11.png",
+      "raw": "<img alt=\"11x\" class=\"absolute object-cover w-full h-full\" loading=\"lazy\" decoding=\"async\" src=\"/assets-original/logocloud/11.png\"/>"
+    },
+    {
+      "src": "https://www.firecrawl.dev/assets-original/logocloud/13.png",
+      "raw": "<img alt=\"Botpress\" class=\"absolute object-cover w-full h-full\" loading=\"lazy\" decoding=\"async\" src=\"/assets-original/logocloud/13.png\"/>"
+    },
+    {
+      "src": "https://www.firecrawl.dev/assets-original/logocloud/14.png",
+      "raw": "<img alt=\"Aleph Alpha\" class=\"absolute object-cover w-full h-full\" loading=\"lazy\" decoding=\"async\" src=\"/assets-original/logocloud/14.png\"/>"
+    },
+    {
+      "src": "https://www.firecrawl.dev/assets-original/logocloud/15.png",
+      "raw": "<img alt=\"Sierra\" class=\"absolute object-cover w-full h-full\" loading=\"lazy\" decoding=\"async\" src=\"/assets-original/logocloud/15.png\"/>"
+    },
+    {
+      "src": "https://www.firecrawl.dev/assets-original/logocloud/1.png",
+      "raw": "<img alt=\"Shopify\" class=\"absolute object-cover w-full h-full\" loading=\"lazy\" decoding=\"async\" src=\"/assets-original/logocloud/1.png\"/>"
+    },
+    {
+      "src": "https://www.firecrawl.dev/assets-original/logocloud/12.png",
+      "raw": "<img alt=\"Lovable\" class=\"absolute object-cover w-full h-full\" loading=\"lazy\" decoding=\"async\" src=\"/assets-original/logocloud/12.png\"/>"
+    },
+    {
+      "src": "https://www.firecrawl.dev/assets-original/logocloud/7.png",
+      "raw": "<img alt=\"Canva\" class=\"absolute object-cover w-full h-full\" loading=\"lazy\" decoding=\"async\" src=\"/assets-original/logocloud/7.png\"/>"
+    },
+    {
+      "src": "https://www.firecrawl.dev/assets-original/logocloud/3.png",
+      "raw": "<img alt=\"Zapier\" class=\"absolute object-cover w-full h-full\" loading=\"lazy\" decoding=\"async\" src=\"/assets-original/logocloud/3.png\"/>"
+    },
+    {
+      "src": "https://www.firecrawl.dev/assets-original/logocloud/16.png",
+      "raw": "<img alt=\"Apple\" class=\"absolute object-cover w-full h-full\" loading=\"lazy\" decoding=\"async\" src=\"/assets-original/logocloud/16.png\"/>"
+    },
+    {
+      "src": "https://www.firecrawl.dev/assets-original/logocloud/22.png",
+      "raw": "<img alt=\"Replit\" class=\"absolute object-cover w-full h-full\" loading=\"lazy\" decoding=\"async\" src=\"/assets-original/logocloud/22.png\"/>"
+    },
+    {
+      "src": "https://www.firecrawl.dev/assets-original/logocloud/2.png",
+      "raw": "<img alt=\"Alibaba\" class=\"absolute object-cover w-full h-full\" loading=\"lazy\" decoding=\"async\" src=\"/assets-original/logocloud/2.png\"/>"
+    },
+    {
+      "src": "https://www.firecrawl.dev/assets-original/logocloud/5.png",
+      "raw": "<img alt=\"PHMG\" class=\"absolute object-cover w-full h-full\" loading=\"lazy\" decoding=\"async\" src=\"/assets-original/logocloud/5.png\"/>"
+    },
+    {
+      "src": "https://www.firecrawl.dev/assets-original/logocloud/17.png",
+      "raw": "<img alt=\"DoorDash\" class=\"absolute object-cover w-full h-full\" loading=\"lazy\" decoding=\"async\" src=\"/assets-original/logocloud/17.png\"/>"
+    },
+    {
+      "src": "https://www.firecrawl.dev/assets-original/logocloud/6.png",
+      "raw": "<img alt=\"Gamma\" class=\"absolute object-cover w-full h-full\" loading=\"lazy\" decoding=\"async\" src=\"/assets-original/logocloud/6.png\"/>"
+    },
+    {
+      "src": "https://www.firecrawl.dev/assets-original/logocloud/4.png",
+      "raw": "<img alt=\"You.com\" class=\"absolute object-cover w-full h-full\" loading=\"lazy\" decoding=\"async\" src=\"/assets-original/logocloud/4.png\"/>"
+    },
+    {
+      "src": "https://www.firecrawl.dev/assets-original/logocloud/8.png",
+      "raw": "<img alt=\"Sprinklr\" class=\"absolute object-cover w-full h-full\" loading=\"lazy\" decoding=\"async\" src=\"/assets-original/logocloud/8.png\"/>"
+    },
+    {
+      "src": "https://www.firecrawl.dev/assets-original/logocloud/9.png",
+      "raw": "<img alt=\"Cognism\" class=\"absolute object-cover w-full h-full\" loading=\"lazy\" decoding=\"async\" src=\"/assets-original/logocloud/9.png\"/>"
+    },
+    {
+      "src": "https://www.firecrawl.dev/assets-original/logocloud/10.png",
+      "raw": "<img alt=\"Ada\" class=\"absolute object-cover w-full h-full\" loading=\"lazy\" decoding=\"async\" src=\"/assets-original/logocloud/10.png\"/>"
+    },
+    {
+      "src": "https://www.firecrawl.dev/assets-original/logocloud/11.png",
+      "raw": "<img alt=\"11x\" class=\"absolute object-cover w-full h-full\" loading=\"lazy\" decoding=\"async\" src=\"/assets-original/logocloud/11.png\"/>"
+    },
+    {
+      "src": "https://www.firecrawl.dev/assets-original/logocloud/13.png",
+      "raw": "<img alt=\"Botpress\" class=\"absolute object-cover w-full h-full\" loading=\"lazy\" decoding=\"async\" src=\"/assets-original/logocloud/13.png\"/>"
+    },
+    {
+      "src": "https://www.firecrawl.dev/assets-original/logocloud/14.png",
+      "raw": "<img alt=\"Aleph Alpha\" class=\"absolute object-cover w-full h-full\" loading=\"lazy\" decoding=\"async\" src=\"/assets-original/logocloud/14.png\"/>"
+    },
+    {
+      "src": "https://www.firecrawl.dev/assets-original/logocloud/15.png",
+      "raw": "<img alt=\"Sierra\" class=\"absolute object-cover w-full h-full\" loading=\"lazy\" decoding=\"async\" src=\"/assets-original/logocloud/15.png\"/>"
+    },
+    {
+      "src": "https://www.firecrawl.dev/assets-original/puppeteer.png",
+      "raw": "<img alt=\"Puppeteer icon\" class=\"size-40\" height=\"40\" width=\"40\" decoding=\"async\" loading=\"lazy\" src=\"/assets-original/puppeteer.png\"/>"
+    },
+    {
+      "src": "https://www.firecrawl.dev/assets-original/developer-os-icon.png",
+      "raw": "<img alt=\"Firecrawl icon (blueprint)\" class=\"cw-80 ch-80 absolute top-0 left-0 max-w-[unset]\" height=\"80\" width=\"80\" decoding=\"async\" loading=\"lazy\" src=\"/assets-original/developer-os-icon.png\"/>"
+    },
+    {
+      "src": "https://www.firecrawl.dev/_next/image?url=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F150964962%3Fv%3D4&amp;w=48&amp;q=75",
+      "raw": "<img alt=\"rafaelsideguide\" loading=\"lazy\" width=\"20\" height=\"20\" decoding=\"async\" data-nimg=\"1\" class=\"size-20 object-cover rounded-full\" style=\"color:transparent\" srcSet=\"/_next/image?url=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F150964962%3Fv%3D4&amp;w=32&amp;q=75 1x, /_next/image?url=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F150964962%3Fv%3D4&amp;w=48&amp;q=75 2x\" src=\"/_next/image?url=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F150964962%3Fv%3D4&amp;w=48&amp;q=75\"/>"
+    },
+    {
+      "src": "https://www.firecrawl.dev/_next/image?url=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F66118807%3Fv%3D4&amp;w=48&amp;q=75",
+      "raw": "<img alt=\"mogery\" loading=\"lazy\" width=\"20\" height=\"20\" decoding=\"async\" data-nimg=\"1\" class=\"size-20 object-cover rounded-full\" style=\"color:transparent\" srcSet=\"/_next/image?url=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F66118807%3Fv%3D4&amp;w=32&amp;q=75 1x, /_next/image?url=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F66118807%3Fv%3D4&amp;w=48&amp;q=75 2x\" src=\"/_next/image?url=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F66118807%3Fv%3D4&amp;w=48&amp;q=75\"/>"
+    },
+    {
+      "src": "https://www.firecrawl.dev/_next/image?url=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F66118807%3Fv%3D4&amp;w=48&amp;q=75",
+      "raw": "<img alt=\"mogery\" loading=\"lazy\" width=\"20\" height=\"20\" decoding=\"async\" data-nimg=\"1\" class=\"size-20 object-cover rounded-full\" style=\"color:transparent\" srcSet=\"/_next/image?url=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F66118807%3Fv%3D4&amp;w=32&amp;q=75 1x, /_next/image?url=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F66118807%3Fv%3D4&amp;w=48&amp;q=75 2x\" src=\"/_next/image?url=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F66118807%3Fv%3D4&amp;w=48&amp;q=75\"/>"
+    },
+    {
+      "src": "https://www.firecrawl.dev/_next/image?url=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F150964962%3Fv%3D4&amp;w=48&amp;q=75",
+      "raw": "<img alt=\"rafaelsideguide\" loading=\"lazy\" width=\"20\" height=\"20\" decoding=\"async\" data-nimg=\"1\" class=\"size-20 object-cover rounded-full\" style=\"color:transparent\" srcSet=\"/_next/image?url=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F150964962%3Fv%3D4&amp;w=32&amp;q=75 1x, /_next/image?url=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F150964962%3Fv%3D4&amp;w=48&amp;q=75 2x\" src=\"/_next/image?url=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F150964962%3Fv%3D4&amp;w=48&amp;q=75\"/>"
+    },
+    {
+      "src": "https://www.firecrawl.dev/_next/image?url=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F150964962%3Fv%3D4&amp;w=96&amp;q=75",
+      "raw": "<img alt=\"https://avatars.githubusercontent.com/u/150964962?v=4\" loading=\"lazy\" width=\"40\" height=\"40\" decoding=\"async\" data-nimg=\"1\" class=\"w-full min-w-[40px] h-40 object-cover max-w-[unset] rounded-full\" style=\"color:transparent\" srcSet=\"/_next/image?url=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F150964962%3Fv%3D4&amp;w=48&amp;q=75 1x, /_next/image?url=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F150964962%3Fv%3D4&amp;w=96&amp;q=75 2x\" src=\"/_next/image?url=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F150964962%3Fv%3D4&amp;w=96&amp;q=75\"/>"
+    },
+    {
+      "src": "https://www.firecrawl.dev/_next/image?url=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F66118807%3Fv%3D4&amp;w=96&amp;q=75",
+      "raw": "<img alt=\"https://avatars.githubusercontent.com/u/66118807?v=4\" loading=\"lazy\" width=\"40\" height=\"40\" decoding=\"async\" data-nimg=\"1\" class=\"w-full min-w-[40px] h-40 object-cover max-w-[unset] rounded-full\" style=\"color:transparent\" srcSet=\"/_next/image?url=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F66118807%3Fv%3D4&amp;w=48&amp;q=75 1x, /_next/image?url=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F66118807%3Fv%3D4&amp;w=96&amp;q=75 2x\" src=\"/_next/image?url=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F66118807%3Fv%3D4&amp;w=96&amp;q=75\"/>"
+    },
+    {
+      "src": "https://www.firecrawl.dev/assets-original/features/media-document.png",
+      "raw": "<img alt=\"Media Document\" class=\"overlay\" decoding=\"async\" loading=\"lazy\" src=\"/assets-original/features/media-document.png\"/>"
+    },
+    {
+      "src": "https://www.firecrawl.dev/assets-original/features/media-document.png",
+      "raw": "<img alt=\"Media Document\" class=\"overlay\" decoding=\"async\" loading=\"lazy\" src=\"/assets-original/features/media-document.png\"/>"
+    },
+    {
+      "src": "https://www.firecrawl.dev/assets-original/features/media-document.png",
+      "raw": "<img alt=\"Media Document\" class=\"overlay\" decoding=\"async\" loading=\"lazy\" src=\"/assets-original/features/media-document.png\"/>"
+    },
+    {
+      "src": "https://www.firecrawl.dev/_next/image?url=%2Fassets-original%2Ffeatures%2Fcached-user.png&amp;w=256&amp;q=75&amp;dpl=dpl_HPUQ3kouZrViT1WGNVMb5yaoXP71",
+      "raw": "<img alt=\"User\" loading=\"lazy\" width=\"80\" height=\"80\" decoding=\"async\" data-nimg=\"1\" class=\"max-w-[unset] cs-80 absolute\" style=\"color:transparent\" srcSet=\"/_next/image?url=%2Fassets-original%2Ffeatures%2Fcached-user.png&amp;w=96&amp;q=75&amp;dpl=dpl_HPUQ3kouZrViT1WGNVMb5yaoXP71 1x, /_next/image?url=%2Fassets-original%2Ffeatures%2Fcached-user.png&amp;w=256&amp;q=75&amp;dpl=dpl_HPUQ3kouZrViT1WGNVMb5yaoXP71 2x\" src=\"/_next/image?url=%2Fassets-original%2Ffeatures%2Fcached-user.png&amp;w=256&amp;q=75&amp;dpl=dpl_HPUQ3kouZrViT1WGNVMb5yaoXP71\"/>"
+    },
+    {
+      "src": "https://www.firecrawl.dev/_next/image?url=%2Fassets-original%2Ffeatures%2Fcached-cache.png&amp;w=128&amp;q=75&amp;dpl=dpl_HPUQ3kouZrViT1WGNVMb5yaoXP71",
+      "raw": "<img alt=\"Cache\" loading=\"lazy\" width=\"50\" height=\"50\" decoding=\"async\" data-nimg=\"1\" class=\"max-w-[unset] size-full absolute\" style=\"color:transparent\" srcSet=\"/_next/image?url=%2Fassets-original%2Ffeatures%2Fcached-cache.png&amp;w=64&amp;q=75&amp;dpl=dpl_HPUQ3kouZrViT1WGNVMb5yaoXP71 1x, /_next/image?url=%2Fassets-original%2Ffeatures%2Fcached-cache.png&amp;w=128&amp;q=75&amp;dpl=dpl_HPUQ3kouZrViT1WGNVMb5yaoXP71 2x\" src=\"/_next/image?url=%2Fassets-original%2Ffeatures%2Fcached-cache.png&amp;w=128&amp;q=75&amp;dpl=dpl_HPUQ3kouZrViT1WGNVMb5yaoXP71\"/>"
+    },
+    {
+      "src": "https://www.firecrawl.dev/_next/image?url=%2Fassets-original%2Ffeatures%2Fcached-cache-color.png&amp;w=128&amp;q=75&amp;dpl=dpl_HPUQ3kouZrViT1WGNVMb5yaoXP71",
+      "raw": "<img alt=\"Cache\" data-color=\"true\" loading=\"lazy\" width=\"50\" height=\"50\" decoding=\"async\" data-nimg=\"1\" class=\"max-w-[unset] size-full absolute\" style=\"color:transparent\" srcSet=\"/_next/image?url=%2Fassets-original%2Ffeatures%2Fcached-cache-color.png&amp;w=64&amp;q=75&amp;dpl=dpl_HPUQ3kouZrViT1WGNVMb5yaoXP71 1x, /_next/image?url=%2Fassets-original%2Ffeatures%2Fcached-cache-color.png&amp;w=128&amp;q=75&amp;dpl=dpl_HPUQ3kouZrViT1WGNVMb5yaoXP71 2x\" src=\"/_next/image?url=%2Fassets-original%2Ffeatures%2Fcached-cache-color.png&amp;w=128&amp;q=75&amp;dpl=dpl_HPUQ3kouZrViT1WGNVMb5yaoXP71\"/>"
+    }
+  ],
+  "fonts": [],
+  "svgCount": 788,
+  "htmlLength": 1200990,
+  "extractedAt": "2026-08-25T13:28:11.527Z"
+}

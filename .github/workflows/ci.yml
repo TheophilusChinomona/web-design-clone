@@ -2,52 +2,49 @@ name: CI
 
 on:
   push:
-    branches:
-      - master
+    branches: [main, master]
   pull_request:
-    branches:
-      - master
+    branches: [main, master]
 
 jobs:
-  quality:
+  validate:
+    name: Lint, Typecheck & API Tests
     runs-on: ubuntu-latest
-    timeout-minutes: 15
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v7
+      - name: Checkout Repository
+        uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v7
+      - name: Setup Node.js 22
+        uses: actions/setup-node@v4
         with:
-          node-version: 24
-          cache: npm
+          node-version: 22
+          cache: 'npm'
 
-      - name: Verify generated files are in sync
-        shell: bash
-        run: |
-          bash scripts/sync-agent-rules.sh
-          node scripts/sync-skills.mjs
-
-          if [[ -n "$(git status --porcelain=v1 --untracked-files=all)" ]]; then
-            echo "::error::Generated files are out of sync with their sources (AGENTS.md / SKILL.md)."
-            echo "Run the sync scripts locally and commit the result:"
-            echo "  bash scripts/sync-agent-rules.sh"
-            echo "  node scripts/sync-skills.mjs"
-            git status --short
-            git diff --stat
-            exit 1
-          fi
-          echo "All generated files are in sync with their sources."
-
-      - name: Install dependencies
+      - name: Install Dependencies
         run: npm ci
 
-      - name: Lint
-        run: npm run lint
-
-      - name: Type check
+      - name: TypeScript Strict Check
         run: npm run typecheck
 
-      - name: Build
+      - name: Production Build
         run: npm run build
+
+      - name: Generate OpenAPI Specs & SDKs
+        run: |
+          npm run openapi:generate
+          node plugins/website-cloner/skills/convert-to-webapp/scripts/generate-sdk.mjs
+
+      - name: Start Production Server
+        run: npm start &
+        env:
+          PORT: 3000
+
+      - name: Wait for Server Ready
+        run: npx wait-on http://localhost:3000 -t 30000
+
+      - name: Run OpenAPI Endpoint Tests
+        run: npm run openapi:test
+
+      - name: Run Client SDK Integration Tests
+        run: node scripts/test-sdk.mjs

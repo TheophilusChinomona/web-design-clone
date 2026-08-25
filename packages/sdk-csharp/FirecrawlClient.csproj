@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>net8.0;net9.0</TargetFrameworks>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <PackageId>Firecrawl.Client</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Website Cloner Plugin</Authors>
+    <Description>C# / .NET Client SDK for Cloned WebApp APIs</Description>
+    <PackageTags>firecrawl;scraping;crawler;sdk;csharp</PackageTags>
+  </PropertyGroup>
+</Project>
