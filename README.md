@@ -43,21 +43,28 @@ flowchart LR
 
 ---
 
-## 🚀 Quick Start
+## 🚀 1-Command Instant Initializers
 
-1. **Install dependencies**:
-   ```bash
-   npm install
-   ```
+You can initialize a brand-new cloning workspace anywhere with a single command:
 
-2. **Start Dev Server**:
-   ```bash
-   npm run dev
-   ```
+#### macOS / Linux / Git Bash (cURL):
+```bash
+curl -fsSL https://raw.githubusercontent.com/TheophilusChinomona/website-cloner-platform/master/scripts/init.sh | bash -s -- my-new-site https://example.com
+```
 
-3. **Explore Clones & Interactive API Docs**:
-   - Master Catalog Hub: [http://localhost:3000/](http://localhost:3000/)
-   - OpenAPI 3.1 Explorer: [http://localhost:3000/api/docs](http://localhost:3000/api/docs)
+#### Windows PowerShell:
+```powershell
+irm https://raw.githubusercontent.com/TheophilusChinomona/website-cloner-platform/master/scripts/init.ps1 | iex
+```
+
+#### Local CLI Runner:
+```bash
+npm run init:clone my-new-site -- --url https://example.com
+```
+
+---
+
+## ⚡ Quick Start & Development
    - EdgeTech Solutions: [http://localhost:3000/edgetech](http://localhost:3000/edgetech)
    - Firecrawl Marketing: [http://localhost:3000/firecrawl](http://localhost:3000/firecrawl)
    - Firecrawl Team Dashboard: [http://localhost:3000/app/t/25bMf9wr6oN](http://localhost:3000/app/t/25bMf9wr6oN)

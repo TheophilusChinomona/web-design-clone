@@ -43,7 +43,8 @@
     "openapi:generate": "node plugins/website-cloner/skills/convert-to-webapp/scripts/generate-openapi.mjs",
     "openapi:test": "node plugins/website-cloner/skills/convert-to-webapp/scripts/test-endpoints.mjs",
     "sdk:generate": "node plugins/website-cloner/skills/convert-to-webapp/scripts/generate-sdk.mjs",
-    "sdk:test": "node scripts/test-sdk.mjs"
+    "sdk:test": "node scripts/test-sdk.mjs",
+    "init:clone": "node plugins/website-cloner/scripts/init.mjs"
   },
   "dependencies": {
     "@base-ui/react": "^1.3.0",
